@@ -1,1 +1,0 @@
-import{f as e,g as t,j as s,i as r}from"./QInput.494ad82c.js";import{j as a}from"./index.59cbe9c2.js";var o=a({name:"QField",inheritAttrs:!1,props:{...e,tag:{type:String,default:"label"}},emits:t,setup(){return s(r({tagProp:!0}))}});export{o as Q};
