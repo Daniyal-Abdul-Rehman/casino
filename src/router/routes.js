@@ -39,7 +39,7 @@ const routes = [
   },
   {
     path: '/reset-password',
-    component: () => import('src/pages/otp/ResetPassword.vue')
+    component: () => import('src/pages/otp/resetPassword.vue')
   },
   {
     path: '/verify-otp',
