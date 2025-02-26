@@ -14,15 +14,15 @@ export default route(function () {
   })
 
   // Global navigation guard
-  Router.beforeEach((to, from, next) => {
-    const token = localStorage.getItem('token')
+  // Router.beforeEach((to, from, next) => {
+  //   const token = localStorage.getItem('token')
 
-    if (!token && to.path !== '/login') {
-      next('/login')
-    } else {
-      next()
-    }
-  })
+  //   if (!token && to.path !== '/login') {
+  //     next('/login')
+  //   } else {
+  //     next()
+  //   }
+  // })
 
   return Router
 })
