@@ -53,39 +53,13 @@
         <router-view></router-view>
       </div>
       <!-- Footer -->
-      <footer class="mt-8 bg-green-900 text-white text-sm py-4 px-6">
-        <p>Casino of Hinduism Pvt Ltd</p>
-        <p class="mt-2">
-          Copyright © 2024 Casino of Hinduism Pvt Ltd, 61, 6th Cross Rd, near
-          Balaji Theatre, Tavarekere, Balaji Nagar, Bengaluru, Karnataka 560029,
-          India. All rights reserved. Gaming can be addictive. Don't let it get
-          that far - talk to us! In accordance with legal requirements, our
-          gaming platform is only available to users aged 18 and above.
-        </p>
-        <div class="flex flex-wrap items-center justify-center mt-4 space-x-4">
-          <a href="#" class="hover:underline">FAQ</a>
-          <a href="#" class="hover:underline">About Us</a>
-          <a href="#" class="hover:underline">Contact Us</a>
-          <a href="#" class="hover:underline">T&C</a>
-          <a href="#" class="hover:underline">Data Protection Policy</a>
-          <a href="#" class="hover:underline">Cookie Policy</a>
-          <a href="#" class="hover:underline">Responsible Gambling</a>
-          <a href="#" class="hover:underline">Open Positions</a>
-        </div>
-      </footer>
+     <footer/>
     </div>
   </q-layout>
 </template>
   
-  <script>
-export default {
-  methods: {
-    submitForm() {
-      // Handle form submission logic here
-      console.log("Form submitted");
-    },
-  },
-};
+<script setup>
+import footer from 'src/components/footer.vue';
 </script>
   
   <style>
