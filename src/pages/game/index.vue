@@ -66,14 +66,14 @@
                   <p class="text-yellow-400 font-bold text-lg blinking">WIN!!</p>
                   <p class="text-yellow-400 font-bold text-lg blinking">WIN!!!</p>
                 </div>
-                <div
+                <!-- <div
                   class="flex flex-col items-center"
                   v-if="!this.highlight.every((item) => item.active === true) && isSpin"
                 >
                   <p class="text-yellow-400 font-bold text-lg blinking">Loose!</p>
                   <p class="text-yellow-400 font-bold text-lg blinking">Loose!!</p>
                   <p class="text-yellow-400 font-bold text-lg blinking">Loose!!!</p>
-                </div>
+                </div> -->
                 <div class="flex justify-center items-center my-4">
                   <div
                     class="relative w-32 h-32 cursor-pointer"
