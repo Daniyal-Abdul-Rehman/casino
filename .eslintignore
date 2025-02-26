@@ -1,0 +1,13 @@
+/dist
+/src-bex/www
+/src-capacitor
+/src-cordova
+/src
+/backend
+/quasar.config.js
+/tailwind.config.js
+/.quasar
+/node_modules
+.eslintrc.cjs
+babel.config.cjs
+/quasar.config..temporary.compiled
